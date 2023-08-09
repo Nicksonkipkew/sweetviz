@@ -9,6 +9,6 @@ data = pd.read_csv(dataset_path)
 # Generate the analysis report using Sweetviz
 report = sv.analyze(data)
 
-# Save the report as an HTML file
+# Save the report as a HTML file
 report_path = "report.html"
 report.show_html(report_path)
